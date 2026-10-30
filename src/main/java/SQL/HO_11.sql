@@ -1,0 +1,1 @@
+CREATE TABLE salesman(ID int PRIMARY KEY, name varchar(20), city varchar(10), commision varchar);

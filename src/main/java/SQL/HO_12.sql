@@ -1,0 +1,1 @@
+INSERT INTO salesman VALUES(1, 'Paul Adam', 'Banglore', 'yes');

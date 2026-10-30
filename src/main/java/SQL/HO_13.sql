@@ -1,0 +1,1 @@
+SELECT id,city from salesman
