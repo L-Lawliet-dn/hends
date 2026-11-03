@@ -1,6 +1,8 @@
+package Java;
+
 import java.util.HashSet;
 
-public class Main {
+public class HO_70 {
     public static void main(String[] args) {
         // Create HashSet named hs
         HashSet<String> hs = new HashSet<>();

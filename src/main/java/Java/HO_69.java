@@ -1,3 +1,5 @@
+package Java;
+
 import java.time.LocalDateTime;
 
 class Plane {
@@ -84,7 +86,7 @@ class Plane {
     }
 }
 
-public class Main {
+ class Mainn {
     public static void main(String[] args) {
         Plane plane = new Plane("AI-101");
 

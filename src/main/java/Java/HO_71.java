@@ -1,8 +1,10 @@
+package Java;
+
 interface Addable {
     int add(int num1, int num2);
 }
 
-public class Activity12 {
+public class HO_71 {
     public static void main(String[] args) {
 
         // Lambda expression without body (expression lambda)

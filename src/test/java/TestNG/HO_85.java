@@ -16,7 +16,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class SimpleFormExcelTest {
+public class HO_85 {
 
     WebDriver driver;
 

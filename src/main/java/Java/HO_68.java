@@ -1,3 +1,5 @@
+package Java;
+
 import java.util.Scanner;
 
 abstract class Book {
@@ -28,7 +30,7 @@ class MyBook extends Book {
     }
 }
 
-public class Solution {
+public class HO_68 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

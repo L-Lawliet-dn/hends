@@ -4,7 +4,7 @@ import java.nio.charset.StandardCharsets;
 
 import org.apache.commons.io.FileUtils;
 
-public class Activity13 {
+public class HO_72 {
     public static void main(String[] args) {
         try {
             // Create a new text file and write text into it
