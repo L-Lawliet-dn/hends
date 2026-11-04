@@ -45,6 +45,27 @@ public class LoginSteps {
         submitButton.click();
     }
 
+    @When("User enters {string} and {string}")
+    public void user_enters_username_and_password(
+            String usernameText, String passwordText) {
+
+        WebElement username = wait.until(
+                ExpectedConditions.visibilityOfElementLocated(By.id("username"))
+        );
+
+        WebElement password = driver.findElement(By.id("password"));
+
+        username.clear();
+        username.sendKeys(usernameText);
+
+        password.clear();
+        password.sendKeys(passwordText);
+
+        driver.findElement(
+                By.xpath("//button[contains(text(), 'Submit')]")
+        ).click();
+    }
+
     @Then("Read the page title and confirmation message")
     public void read_the_page_title_and_confirmation_message() {
         String pageTitle = driver.getTitle();
